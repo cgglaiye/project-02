@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    margin: 33px auto;
+    height: 42px;
+    width: 1200px;
+    line-height: 42px;
+}
+
+.logo,
+.nav,
+.search,
+.user {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 22px;
+}
+
+.nav ul {
+    margin-left: 40px;
+}
+
+.search {
+    margin-left: 77px;
+}
+
+.search input {
+    float: left;
+    height: 38px;
+    width: 362px;
+    font-size: 14px;
+    text-indent: 22px;
+    border: 1px solid #00a4ff;
+    color: #bfbfbf;
+}
+
+.search button {
+    height: 40px;
+    width: 50px;
+    border: 0;
+    float: left;
+}
+
+.user {
+    margin-left: 31px;
+}
+
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 420px;
+    background-image: url(images/banner2.png);
+    background-size: cover;
+}
+
+.banner .w .left {
+    float: left;
+    height: 420px;
+    width: 180px;
+    background-color: #13014b;
+}
+
+.banner .w .left ul li a {
+    display: block;
+    height: 46px;
+    font-size: 14px;
+    line-height: 46px;
+    text-indent: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner .w .left ul li a span {
+    float: right;
+    margin-right: 10px;
+}
+
+.course {
+    float: right;
+    height: 300px;
+    width: 230px;
+    margin: 50px 0 70px 0;
+}
+
+.course .my {
+    height: 47px;
+    font-size: 18px;
+    line-height: 47px;
+    color: #ffffff;
+    background-color: #9bceea;
+    text-align: center;
+}
+
+.course .learn {
+    height: 70px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid gray;
+}
+
+.course .learn h6 {
+    font-size: 14px;
+}
+
+.course .all {
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid blue;
+}
